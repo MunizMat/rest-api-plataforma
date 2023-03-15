@@ -1,5 +1,9 @@
 class UserController {
-  async store(req, res) {
+  index(req, res) {
+    res.send('index');
+  }
+
+  store(req, res) {
     res.send('store');
   }
 
